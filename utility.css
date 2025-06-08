@@ -1,0 +1,77 @@
+/* Utility classes for layout and styling. start*/
+.border-1 {
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.border-2 {
+    border: 2px solid grey;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-gray-1 {
+    background-color: #121212;
+}
+
+.bg-gray-2 {
+    background-color: #1f1f1f;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+.p-1 {
+    padding: 5px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+/* Utility classes for layout and styling. end*/
+
+/* Start Scroll Bar design code */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+/* End Scroll Bar design code */
